@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[1]:
 
 
 get_ipython().run_line_magic('matplotlib', 'inline')
@@ -12,7 +12,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 # Filename: descriptive_analysis.ipynb
 # Author: Yinan Yu
 # Description:  
-# If you have any questions or commnets, email yinan@chalmers.se or 
+# If you have any questions or comments, email yinan@chalmers.se or 
 # yinan.yu@asymptotic.ai
 # Note: the content of this file is subject to change
 # ----------------------------------------------------------------------
@@ -39,7 +39,7 @@ from pprint import pprint # pretty print
 import os
 
 # Some settings:
-data_dir = "data" # data directory
+data_dir = "../data" # data directory
 dpi = 100
 
 
@@ -47,7 +47,7 @@ dpi = 100
 
 # ## Load data
 
-# In[3]:
+# In[2]:
 
 
 img_path = os.path.join(data_dir, "rgb.jpg") # Specify data path
@@ -56,7 +56,7 @@ img_rgb = plt.imread(img_path) # Load the image
 plt.imshow(img_rgb); # Show image alt="An orange cat is stretching with a very content facial expression"
 
 
-# In[4]:
+# In[3]:
 
 
 print(">>> The type of the images:", img_rgb.dtype)
@@ -65,7 +65,7 @@ print(">>> The values of the image are:")
 pprint(img_rgb)
 
 
-# In[5]:
+# In[4]:
 
 
 # Convert discrete values (uint8) into "continuous" values (float32)
@@ -75,7 +75,7 @@ print(">>> The values of images are continuous values now")
 pprint(imgf_rgb)
 
 
-# In[6]:
+# In[5]:
 
 
 # Convert rgb into grayscale 
@@ -85,7 +85,7 @@ plt.imshow(imgf_gray) # alt="A grayscale image of a cat stretching."
 plt.title("Convert to grayscale by averaging rgb channels"); # Add title
 
 
-# In[7]:
+# In[6]:
 
 
 # Convert rgb into black and white
@@ -109,7 +109,7 @@ plt.title("Convert to black and white with threshold 0.5"); # Add title
 # ## Descriptive analysis
 # ### Histogram
 
-# In[8]:
+# In[7]:
 
 
 fig, axes = plt.subplots(1, 3, figsize=(12,4), dpi= dpi) 
@@ -127,7 +127,7 @@ plt.show()
 
 # ### Descriptive statistics 
 
-# In[9]:
+# In[8]:
 
 
 # Descriptive statistics
@@ -172,7 +172,7 @@ print(">>> What are quantiles? How are they related to percentiles?")
 
 # ## Load data
 
-# In[10]:
+# In[9]:
 
 
 # Input data: two user reviews. 
@@ -181,7 +181,7 @@ review1 = "music neg 204.txt generally harmless , except for one very offensive 
 review2 = "music neg 723.txt the raising arizona part of the cd is almost exclusively electronic and only one 90 second track of the great banjo that i remember from the movie . i recommend listening to samples before you buy"
 
 
-# In[11]:
+# In[10]:
 
 
 words1 = review1.strip().split()[3:]  
@@ -198,7 +198,7 @@ print(">>> Vocabulary:", vocab)
 
 # ### Count
 
-# In[12]:
+# In[11]:
 
 
 # Do something with the text data
@@ -216,7 +216,7 @@ print(word_freqs)
 
 # ### Bar chart
 
-# In[13]:
+# In[12]:
 
 
 top = dict(word_freqs.most_common(10))
@@ -229,7 +229,7 @@ print(">>> In the assignment, you will do something more sophisticated")
 
 # ### Pie chart
 
-# In[14]:
+# In[13]:
 
 
 # Usually more confusing than bar chart. But let's show it anyway. It's good for showing percentages. 
@@ -244,7 +244,7 @@ plt.show()
 
 # ## Load data
 
-# In[15]:
+# In[14]:
 
 
 # This time, we will grab something from the internet.
@@ -255,7 +255,7 @@ data_gwh = pd.read_csv(src, sep=',', header=1, names=['gender','height','weight'
 print(data_gwh)
 
 
-# In[16]:
+# In[15]:
 
 
 # Let's do some cleaning here: 
@@ -265,14 +265,14 @@ table_data.height = data_gwh.height * 2.54
 table_data.weight = data_gwh.weight * 0.45359237
 
 
-# In[17]:
+# In[16]:
 
 
 # Inspect data
 table_data.head(2)
 
 
-# In[18]:
+# In[17]:
 
 
 table_data.tail(5)
@@ -280,7 +280,7 @@ table_data.tail(5)
 
 # ## Descriptive analysis
 
-# In[19]:
+# In[18]:
 
 
 print("Explain each row in this table to your rubber duck!")
@@ -289,7 +289,7 @@ table_data.describe()
 
 # ### Histogram, quantile and percentile
 
-# In[20]:
+# In[19]:
 
 
 # Histogram and quantile/percentile
@@ -324,7 +324,7 @@ print(quantile_table)
 # ### You need to feel very comfortable with quantiles!!
 # ### Not yet? Okay, here comes more!!! 
 
-# In[21]:
+# In[20]:
 
 
 # Now let's draw more quantiles for Gaussian distribution and see how it looks
@@ -340,7 +340,7 @@ add_vert_line(ax, percentiles, [""]*len(list(qs)), 50)
 print("Explain why is it more dense in the middle??")
 
 
-# In[22]:
+# In[21]:
 
 
 # Check out: https://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule
