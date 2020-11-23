@@ -28,6 +28,7 @@ plt.style.use('seaborn-darkgrid')
 
 
 # Gaussian distribution
+# The weights from 20 ducks
 x20 = np.asarray([6.97710573, 5.43375569, 2.96530419, 7.0688393,  
                   8.54138578, 7.21095378, 7.5280192, 3.48436681, 
                   3.72277599, 9.00523767, 11.11799661, 7.43367982,
@@ -1243,7 +1244,7 @@ for i, priorrv in enumerate(priorrvs):
                  label="%s prior\n(%.1f,%.1f): "%(prirordist[i],
                                                 hyperparameters[i][0], 
                                                 hyperparameters[i][1]) + r"$\hat{\mu}_{MAP}=%.4f$"%mu_map)
-    print("MLE:", mu_mle, ", MAP (Gaussian prior (%.1f,%.1f):"%(hyperparameters[i][0], hyperparameters[i][1]), mu_map)
+    print("MLE:", mu_mle, ", MAP %s prior (%.1f,%.1f):"%(prirordist[i], hyperparameters[i][0], hyperparameters[i][1]), mu_map)
     
 
 axes[0].set_ylabel("Prior PDF", fontsize=20)
