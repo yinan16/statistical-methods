@@ -409,7 +409,6 @@ ax.annotate("$q=Q(p)=Q(%.2f)=%.2f$"%(cdf, q_from_cdf), (q, 0),
 # Bernoulli
 fig, ax = plt.subplots(1, 1, figsize=(4,3), dpi=100) 
 
-N = 10000
 ax.bar([0,1],[0.4,
               0.6],
         width=0.1); 
@@ -420,22 +419,18 @@ ax.set_ylabel("$f(x)$", fontsize=18)
 ax.set_xlabel("x", fontsize=18);
 
 
-# In[12]:
+# In[35]:
 
 
 # Categorical
 fig, ax = plt.subplots(1, 1, figsize=(4,3), dpi=100) 
 
 N = 10000
-multinoulli = stats.multinomial.rvs(N, p=[0.1, 0.2, 0.4, 0.3])
-ax.bar([1,2,3, 4],[multinoulli[0]/N,
-                multinoulli[1]/N,
-                multinoulli[2]/N,
-                multinoulli[3]/N],
+ax.bar(list(range(1,5)),[0.1, 0.2, 0.4, 0.3],
            width=0.1); 
 ax.set_xlim(0.5,4.5)
 ax.set_xticks([1,2,3,4]);
-ax.set_title("Bernoulli distribution (PMF)\n$p_1=0.1$, $p_2=0.2$, $p_3=0.4$, $p_4=0.3$")
+ax.set_title("Categorical distribution (PMF)\n$p_1=0.1$, $p_2=0.2$, $p_3=0.4$, $p_4=0.3$")
 ax.set_ylabel("$f(x)$", fontsize=18)
 ax.set_xlabel("x", fontsize=18);
 
