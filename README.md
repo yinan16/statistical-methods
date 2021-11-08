@@ -23,3 +23,8 @@ Course material
     + Categorical distribution
     + Discrete uniform distribution
     + Gaussian distribution
+
++ **Lecture 3**: Mathematical modelling
+  + Quantile, CDF
+  + Q-Q plot
+  + Components in mathematical models
