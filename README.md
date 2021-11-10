@@ -28,3 +28,9 @@ Course material
   + Quantile, CDF
   + Q-Q plot
   + Components in mathematical models
+
++ **Lecture 4**: Parammeter Estimation
+  + Steps of parameter estimation
+  + Joint probability distribution, independent and identically distributed (i.i.d.) random variables
+  + Likelihood function, maximum likelihood estimation
+  + Prior, posterior
