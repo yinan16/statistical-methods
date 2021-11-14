@@ -32,5 +32,13 @@ Course material
 + **Lecture 4**: Parammeter Estimation
   + Steps of parameter estimation
   + Joint probability distribution, independent and identically distributed (i.i.d.) random variables
-  + Likelihood function, maximum likelihood estimation
+  + Likelihood function, Maximum Likelihood Estimation (MLE)
   + Prior, posterior
+  + Maximum A Posteriori estimation (MAP)
+
++ **Lecture 5**: Naive Bayes classifiers
+  + Classification
+  + Training, validation and testing
+  + TP, TN, FP, FN, accuracy, precision, recall, specificity, F1 score
+  + Bayes' rule for multinomial and Gaussian naive Bayes classifiers
+  + Implementation of naive Bayes classifiers
