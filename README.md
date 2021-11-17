@@ -42,3 +42,8 @@ Course material
   + TP, TN, FP, FN, accuracy, precision, recall, specificity, F1 score
   + Bayes' rule for multinomial and Gaussian naive Bayes classifiers
   + Implementation of naive Bayes classifiers
+
++ **Lecture 6**: Central limit theorem and interval estimation
+  + Sample statistic, sampling distribution, sample mean, sample variance, standard normal distribution
+  + Central limit theorem
+  + Interval estimation: confidence interval, credible interval
