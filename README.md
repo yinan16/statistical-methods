@@ -47,3 +47,12 @@ Course material
   + Sample statistic, sampling distribution, sample mean, sample variance, standard normal distribution
   + Central limit theorem
   + Interval estimation: confidence interval, credible interval
+
++ **Lecture 7**: Hypothesis testing part I
+  + Terminology:
+    - Experiment and parameter of interest
+    - Null hypothesis and alternative hypothesis
+    - Test statistic
+    - Null distribution
+    - Significance level, power and p-value
+  + Examples: one sample z-test
