@@ -56,3 +56,10 @@ Course material
     - Null distribution
     - Significance level, power and p-value
   + Examples: one sample z-test
+  + p-hacking
+
++ **Lecture 8**: Hypothesis testing part II
+  + One-sample z-test, two-sample z-test
+  + One-sample t-test, two-sample t-test
+  + Paired t-test
+  + ... more to come
