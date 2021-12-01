@@ -59,7 +59,12 @@ Course material
   + p-hacking
 
 + **Lecture 8**: Hypothesis testing part II
-  + One-sample z-test, two-sample z-test
-  + One-sample t-test, two-sample t-test
-  + Paired t-test
-  + ... more to come
+  + Test statistics and hypothesis tests
+    + One-sample z-test, two-sample z-test
+    + One-sample t-test, two-sample t-test
+    + Paired t-test
+    + Binomial test
+    + McNemar’s test
+  + Compare two classifiers
+    + K-fold cross validation: paired t-test
+    + Training-validation split and leave-one-out cross validation: McNemar's test
