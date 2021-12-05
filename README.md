@@ -68,3 +68,10 @@ Course material
   + Compare two classifiers
     + K-fold cross validation: paired t-test
     + Training-validation split and leave-one-out cross validation: McNemar's test
+
++ **Lecture 9**: Clustering Part I
+  + Clustering
+  + Cluster tendency
+  + Centroid clustering, distribution clustering, density clustering, hierarchical clustering
+  + Centroid clustering: K-means
+  + SSE and Silhouette score
