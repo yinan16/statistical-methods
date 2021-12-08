@@ -75,3 +75,11 @@ Course material
   + Centroid clustering, distribution clustering, density clustering, hierarchical clustering
   + Centroid clustering: K-means
   + SSE and Silhouette score
+
++ **Lecture 10**: Clustering Part II
+  + Distribution clustering
+    + Gaussian Mixture Models
+      + EM algorithm
+      + AIC/BIC
+  + Hierarchical clustering, density clustering (brief)
+  + Cluster validation
