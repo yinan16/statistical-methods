@@ -81,5 +81,18 @@ Course material
     + Gaussian Mixture Models
       + EM algorithm
       + AIC/BIC
-  + Hierarchical clustering, density clustering (brief)
+  + Hierarchical clustering, density clustering
   + Cluster validation
+
+
++ **Lecture 11**: Decision Tree and Random Forest
+  + Decision trees
+    + Decision tree for classification
+      + Categorical variables
+      + Numerical variables
+    + Decision tree for regression
+      + Regression models
+    + Ensemble methods
+      + Bias-variance trade-off
+      + Bagging
+      + Random forest
