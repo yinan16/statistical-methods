@@ -27,3 +27,10 @@ Course material
   + Quantile, CDF
   + Q-Q plot
   + Mathematical modeling
+
++ **Lecture 4**: Parammeter (point) estimation
+  + Steps of parameter estimation
+  + Joint probability distribution, independent and identically distributed (i.i.d.) random variables
+  + Likelihood function, Maximum Likelihood Estimation (MLE)
+  + Prior, posterior
+  + Maximum A Posteriori estimation (MAP)
