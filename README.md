@@ -41,3 +41,9 @@ Course material
   + Implementation of naive Bayes classifiers
   + Training, validation and testing
   + TP, TN, FP, FN, accuracy, precision, recall, specificity, F1 score
+
+
++ **Lecture 6**: Central limit theorem and interval estimation
+  + Sample statistic, sampling distribution, sample mean, sample variance, standard normal distribution
+  + Central limit theorem
+  + Interval estimation: confidence interval, credible interval
