@@ -39,11 +39,27 @@ Course material
   + Classification
   + Bayes' rule for multinomial and Gaussian naive Bayes classifiers
   + Implementation of naive Bayes classifiers
-  + Training, validation and testing
-  + TP, TN, FP, FN, accuracy, precision, recall, specificity, F1 score
+  + Evaluate a classifier
+    + Training, validation and testing
+    + TP, TN, FP, FN, accuracy, precision, recall, specificity, F1 score
 
 
 + **Lecture 6**: Central limit theorem and interval estimation
   + Sample statistic, sampling distribution, sample mean, sample variance, standard normal distribution
   + Central limit theorem
   + Interval estimation: confidence interval, credible interval
+
+
++ **Lecture 7**: Clustering Part I
+  + Clustering
+  + Cluster tendency
+  + Centroid clustering: K-means
+  + SSE and Silhouette score
+
++ **Lecture 8**: Clustering Part II
+  + Distribution clustering
+    + Gaussian Mixture Models
+      + EM algorithm
+      + AIC/BIC
+  + Hierarchical clustering, density clustering
+  + Cluster validation
