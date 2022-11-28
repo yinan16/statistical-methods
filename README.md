@@ -58,8 +58,11 @@ Course material
 
 + **Lecture 8**: Clustering Part II
   + Distribution clustering
-    + Gaussian Mixture Models
+    + Gaussian Mixture Models (GMM)
       + EM algorithm
       + AIC/BIC
+    + GMM vs Gaussian naive Bayes
+    + GMM vs K-means
+    + EM vs K-means parameter estimation
   + Hierarchical clustering, density clustering
   + Cluster validation
