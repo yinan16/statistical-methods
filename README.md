@@ -66,3 +66,14 @@ Course material
     + EM vs K-means parameter estimation
   + Hierarchical clustering, density clustering
   + Cluster validation
+
+
++ **Lecture 9**: Hypothesis testing part I
+  + Terminology:
+    - Experiment and parameter of interest
+    - Null hypothesis and alternative hypothesis
+    - Test statistic
+    - Null distribution
+    - Significance level, power and p-value
+  + Examples: one sample z-test
+  + p-hacking
