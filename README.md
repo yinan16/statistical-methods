@@ -5,7 +5,7 @@ Course material
 ## Table of contents
 
 + **Introduction** ([Slides](./lectures/introduction_handout.pdf))
-+ **Lecture 1**: Data types and descriptive analysis 
++ **Lecture 1** ([Slides](./lectures/l1_handout.pdf)): Data types and descriptive analysis
   + Statistical data types: categorical (nominal, ordinal), numerical (discrete, continuous)
   + Data containers: array (tensor), table
   + Descriptive analysis:
