@@ -14,3 +14,12 @@ Course material
       + Dispersion: standard deviation, range
       + Dependence: correlation, covariance
     + Visualization: bar chart, pie chart, histogram, scatter plot, heatmap, mosaic plot, etc
+
++ **Lecture 2** ([Slides](./lectures/l2_handout.pdf)): Probability distribution
+  + Experiment, sample space, event, random variable, PDF/PMF
+  + Conditional probability
+  + Example probability distributions:
+    + Bernoulli distribution
+    + Categorical distribution
+    + Discrete uniform distribution
+    + Gaussian distribution
