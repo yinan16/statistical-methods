@@ -16,10 +16,15 @@ Course material
     + Visualization: bar chart, pie chart, histogram, scatter plot, heatmap, mosaic plot, etc
 
 + **Lecture 2** ([Slides](./lectures/l2_handout.pdf)): Probability distribution
-  + Experiment, sample space, event, random variable, PDF/PMF
+  + Experiment, sample space, event, random variable
+  + PDF/PMF
+
++ **Lecture 3** ([Slides](./lectures/l3_handout.pdf)): Comparing distributions
   + Conditional probability
   + Example probability distributions:
     + Bernoulli distribution
     + Categorical distribution
     + Discrete uniform distribution
     + Gaussian distribution
+  + Quantile function, CDF
+  + Q-Q plot
