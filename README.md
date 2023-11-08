@@ -29,7 +29,7 @@ Course material
   + Quantile function, CDF
   + Q-Q plot
 
-+ **Lecture 4** ([Slides](./lectures/l3_handout.pdf)): Parameter estimation (part I)
++ **Lecture 4** ([Slides](./lectures/l4_handout.pdf)): Parameter estimation (part I)
   + Mathematical modeling
   + Steps of parameter estimation
   + Likelihood function, Maximum Likelihood Estimation (MLE)
