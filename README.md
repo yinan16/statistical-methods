@@ -28,3 +28,9 @@ Course material
     + Gaussian distribution
   + Quantile function, CDF
   + Q-Q plot
+
++ **Lecture 4 (Part I)** ([Slides](./lectures/l3_handout.pdf)): MLE
+  + Mathematical modeling
+  + Steps of parameter estimation
+  + Likelihood function, Maximum Likelihood Estimation (MLE)
+  + Joint probability distribution, independent and identically distributed (i.i.d.) random variables
