@@ -34,3 +34,8 @@ Course material
   + Steps of parameter estimation
   + Likelihood function, Maximum Likelihood Estimation (MLE)
   + Joint probability distribution, independent and identically distributed (i.i.d.) random variables
+
+
++ **Lecture 5** ([Slides](./lectures/l5_handout.pdf)): Parameter estimation (part II)
+  + Prior, posterior
+  + Maximum A Posteriori estimation (MAP)
