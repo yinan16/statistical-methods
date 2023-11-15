@@ -39,3 +39,8 @@ Course material
 + **Lecture 5** ([Slides](./lectures/l5_handout.pdf)): Parameter estimation (part II)
   + Prior, posterior
   + Maximum A Posteriori estimation (MAP)
+
++ **Lecture 6** ([Slides](./lectures/l6_handout.pdf)): Naive Bayes classifiers
+  + Classification
+  + Bayes' rule for multinomial and Gaussian naive Bayes classifiers
+  + Implementation of naive Bayes classifiers
