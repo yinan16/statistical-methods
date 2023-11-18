@@ -44,3 +44,7 @@ Course material
   + Classification
   + Bayes' rule for multinomial and Gaussian naive Bayes classifiers
   + Implementation of naive Bayes classifiers
+
++ **Lecture 7** ([Slides](./lectures/l7_handout.pdf)): Classifier evaluation
+    + Training, validation and test
+    + TP, TN, FP, FN, accuracy, precision, recall, specificity, F1 score
