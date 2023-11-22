@@ -48,3 +48,9 @@ Course material
 + **Lecture 7** ([Slides](./lectures/l7_handout.pdf)): Classifier evaluation
     + Training, validation and test
     + TP, TN, FP, FN, accuracy, precision, recall, specificity, F1 score
+
++ **Lecture 8** ([Slides](./lectures/l8_handout.pdf)): Clustering (part I)
+  + Clustering
+  + Cluster tendency
+  + Centroid clustering: K-means
+  + SSE and Silhouette score
