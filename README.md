@@ -54,3 +54,12 @@ Course material
   + Cluster tendency
   + Centroid clustering: K-means
   + SSE and Silhouette score
+
++ **Lecture 9** ([Slides](./lectures/l9_handout.pdf)): Clustering (part II)
+  + Distribution clustering
+    + Gaussian Mixture Models (GMM)
+      + EM algorithm
+      + AIC/BIC
+    + GMM vs Gaussian naive Bayes
+    + GMM vs K-means
+    + EM vs K-means parameter estimation
