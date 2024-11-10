@@ -19,3 +19,12 @@ Course material
   + Experiment, sample space, event, random variable
   + PDF/PMF
 
++ **Lecture 3** ([Slides](./lectures/l3_handout.pdf)): Comparing distributions
+  + Conditional probability
+  + Example probability distributions:
+    + Bernoulli distribution
+    + Categorical distribution
+    + Discrete uniform distribution
+    + Gaussian distribution
+  + Quantile function, CDF
+  + Q-Q plot
