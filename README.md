@@ -63,3 +63,7 @@ Course material
     + GMM vs K-means
     + EM vs K-means parameter estimation
 
++ **Lecture 10** ([Slides](./lectures/l10_handout.pdf)): Central limit theorem and interval estimation
+  + Sample statistic, sampling distribution, sample mean, sample variance, standard normal distribution
+  + Central limit theorem
+  + Interval estimation: confidence interval, credible interval
