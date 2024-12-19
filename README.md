@@ -74,3 +74,13 @@ Course material
   - Test statistic
   - Null distribution
   - Significance level, power and p-value
++ **Lecture 12** ([Slides](./lectures/l12_handout.pdf)): Hypothesis testing (part II)
+  + Test statistics and hypothesis tests
+    + One-sample z-test, two-sample z-test
+    + One-sample t-test, two-sample t-test (unequal variances)
+    + Paired t-test
+    + Binomial test
+    + McNemar’s test
+  + Compare two classifiers
+    + K-fold cross validation: paired t-test
+    + Training-validation split and leave-one-out cross validation: McNemar's test
